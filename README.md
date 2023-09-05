@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
- Amber Venema
+  Amber Venema
 
   #### Je startniveau:
   Rode piste
@@ -36,17 +36,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  World of Warcraft website:   https://worldofwarcraft.blizzard.com/en-us/
-  
+  World of Warcraft website: https://worldofwarcraft.blizzard.com/en-us/
+
   Informatie website over de game World of Warcraft
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Homepagina
+  https://worldofwarcraft.blizzard.com/en-us/  
+  <img src="readme-images/home.jpg" width="375px" alt="homepagina world of warcraft">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Classes
+  https://worldofwarcraft.blizzard.com/en-us/game/classes
+  <img src="readme-images/classes.jpg" width="375px" alt="classes pagina world of warcraft">
  
 </details>
 
