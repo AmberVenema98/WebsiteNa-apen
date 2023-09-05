@@ -36,9 +36,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  World of Warcraft website
+  World of Warcraft website:   https://worldofwarcraft.blizzard.com/en-us/
+  
   Informatie website over de game World of Warcraft
-  https://worldofwarcraft.blizzard.com/en-us/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
