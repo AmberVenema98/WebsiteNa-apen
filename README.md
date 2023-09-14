@@ -42,12 +42,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepagina
+
   https://worldofwarcraft.blizzard.com/en-us/  
   <img src="readme-images/home.jpg" width="375px" alt="homepagina world of warcraft">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Dragonflight expansion
-  https://worldofwarcraft.blizzard.com/en-us/game/classes
+
+  https://dragonflight.blizzard.com/en-us/
   <img src="readme-images/tweede-pagina.jpg" width="375px" alt="classes pagina world of warcraft">
  
 </details>
