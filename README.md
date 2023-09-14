@@ -69,7 +69,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Of het lezen van tekst op een afbeelding of video. Het contrast ervan is erg slecht en het leid ook nog eens af. Als je slecht zient bent, kun je dat niet goed lezen en inzoomen kan niet.
 
   Zoals hier:
-   <img src="readme-images/Slechte-tekst.jpg" width="375px" alt="slechte tekst op de home pagina">
+
+   <img src="readme-images/Slechte-tekst.jpg" width="500px" alt="slechte tekst op de home pagina">
 
 </details>
 
