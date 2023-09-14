@@ -89,7 +89,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/Breakdown-schets-Home.png" width="375px" alt="breakdown van de hele pagina">
 
    ### de hele pagina van Dragonflight: 
-  <img src="readme-images/Breakdown-schets-Dragonflight.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdown-schets-Dragenflight.png" width="375px" alt="breakdown van de hele pagina">
 </details>
 
 
