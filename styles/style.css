@@ -6,10 +6,6 @@
 }
 
 
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -23,9 +19,169 @@
 
 
 
+
+
+
+
 /****************/
-/* JOUW STYLING */
+/*    Header    */
 /****************/
 
-/* jouw code */
+.home header nav ul{
+	display: flex;
+	justify-content: space-between;
+
+	background-color: #342211;
+
+	height: 70px;
+
+	padding: 10px;
+	margin: 0;
+
+	list-style-type: none;
+}
+
+.home header nav ul li button{
+	height: 50px;
+	width: 50px;
+}
+
+
+
+
+
+/****************/
+/*     Body     */
+/****************/
+body{
+	background-color: black;
+	margin: 0;
+}
+
+
+
+
+
+/****************/
+/*   Main Home  */
+/****************/
+.home p, h1, h2, h3, a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+
+	padding: 0;
+	margin: 0;
+
+	flex-wrap: wrap;
+}
+
+.home h1{
+	font-size: 2.5em;
+	text-transform: uppercase;
+
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+.home h2, .home h3{
+	margin: 0;
+}
+
+
+.home main > article > p{
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
+.home a{
+	color: orange;
+}
+
+.home main section, .home main article, .home footer{
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: aqua;
+}
+
+.home main > section:nth-of-type(1){
+	display: flex;
+	height: 150px;
+
+	background-repeat: no-repeat;
+	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/kj/KJS7Z9VJW5MD1693941531106.png);
+	background-size: cover;
+}
+
+.home main > article{
+	background-color: black;
+	height: 400px;
+	
+	text-align: center;
+}
+
+
+
+/*******Latest update Section*********/
+.home main > section > section > section{
+	height: 230px;
+
+	margin: 0;
+
+	border: 2px solid orange;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.home main > section > section > section:nth-of-type(1){
+	background-image: url(../images/Homepagina/News2.jpg);
+}
+
+.home main > section > section > section:nth-of-type(2){
+	background-image: url(../images/Homepagina/Home-background.jpg);
+}
+
+.home main > section > section > article{
+	background-color: pink;
+
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 20px;
+}
+
+.home main > section > section > article > p, h3{
+	font-size: 1em;
+
+	text-align: left;
+}
+/*******Einde Latest update Section*********/
+
+
+
+
+/*******Footer*********/
+.home footer{
+	background-color: crimson;
+}
+
+.home footer > section{
+	display: flex;
+}
+
+.home footer > section > p, .home footer > section > a{
+	text-align: center;
+}
+/*******Eind Footer*********/
+
+
+
+
+
+
+
+
+
+
 

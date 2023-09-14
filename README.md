@@ -81,15 +81,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
+  De website bevat heel veel div's in elkaar. Dat heb ik nu niet allemaal genoteerd, want dan zou het helemaal vol zitten met aantekeningen. Voor mijn website wil ik minder sections gaan gebruiken. Minstens twee of drie in elkaar. 
+
   ### de hele pagina: 
   <img src="readme-images/Breakdown-schets-Home.png" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
 </details>
 
 
@@ -104,15 +99,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Ik heb een begin van de home pagina gemaakt, maar nog niet zoveel. In en buiten de les was ik vooral bezig met de opdrachten in de werkgroep. Daardoor ben ik wat later begonnen aan mijn webstie.
+
+  Op het moment zit ik vast met de selectors. Ik heb een aantal sections gemaakt en het lukt mij niet om een bepaalde selector aan te roepen. Dan maakte ik gebruik van :nth-of-type() en werd er eigenlijk alleen de eerste section die er is. Of om de 2 sections.
+
+  Hier is een voorbeeld:
+
+  Twee section hebben dezelfde achtergrond foto, terwijl ik hier een pad heb gemaakt om ze uitelkaar te halen. Er moet iets zijn dat ik niet goed heb ingetikt, maar ik zie even niet wat.
+
+  <img src="readme-images/Code-selectors.jpg" width="100%" alt="Afbeelding van Css code en het resultaat. Je ziet twee section met dezelfde achtergrond foto.">
+
+  Dit is de html ervan. De section die ik probeer te pakken, is een section in een section in een section. 
+
+  <img src="readme-images/Section-selectors.jpg" width="100%" alt="Html code van sections">
+  
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Amber          | Elles              | Rhania       | Sophie           |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Tekst schalen  | Tekst schalen      | Flexbox      | Flexbox          |
+  | CSS Selectors  | Grid               |              | Responsive       |
 
 
   ### Verslag van meeting
