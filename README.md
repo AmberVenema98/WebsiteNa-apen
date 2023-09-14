@@ -103,11 +103,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Op het moment zit ik vast met de selectors. Ik heb een aantal sections gemaakt en het lukt mij niet om een bepaalde selector aan te roepen. Dan maakte ik gebruik van :nth-of-type() en werd er eigenlijk alleen de eerste section die er is. Of om de 2 sections.
 
+
+
   Hier is een voorbeeld:
 
   Twee section hebben dezelfde achtergrond foto, terwijl ik hier een pad heb gemaakt om ze uitelkaar te halen. Er moet iets zijn dat ik niet goed heb ingetikt, maar ik zie even niet wat.
 
   <img src="readme-images/Code-selectors.jpg" width="100%" alt="Afbeelding van Css code en het resultaat. Je ziet twee section met dezelfde achtergrond foto.">
+
+
 
   Dit is de html ervan. De section die ik probeer te pakken, is een section in een section in een section. 
 
@@ -122,6 +126,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | Tekst schalen  | Tekst schalen      | Flexbox      | Flexbox          |
   | CSS Selectors  | Grid               |              | Responsive       |
+  |                | Logo in het midden |              |                  |
 
 
   ### Verslag van meeting
