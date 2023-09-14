@@ -70,7 +70,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Zoals hier:
 
-   <img src="readme-images/Slechte-tekst.jpg" width="500px" alt="slechte tekst op de home pagina">
+   <img src="readme-images/Slechte-tekst.jpg" width="100%" alt="slechte tekst op de home pagina">
 
 </details>
 
