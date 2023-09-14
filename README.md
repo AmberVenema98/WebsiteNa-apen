@@ -86,10 +86,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De website bevat heel veel div's in elkaar. Dat heb ik nu niet allemaal genoteerd, want dan zou het helemaal vol zitten met aantekeningen. Voor mijn website wil ik minder sections gaan gebruiken. Minstens twee of drie in elkaar. 
 
   ### de hele pagina van Homepagina: 
-  <img src="readme-images/Breakdown-schets-Home.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdown-schets-Home.png" width="375px" alt="breakdown van de homepagina">
 
    ### de hele pagina van Dragonflight: 
-  <img src="readme-images/Breakdown-schets-Dragenflight.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdown-schets-Home.png" width="375px" alt="breakdown van dragonflight">
 </details>
 
 
