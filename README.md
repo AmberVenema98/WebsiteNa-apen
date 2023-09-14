@@ -62,6 +62,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Ik had verwacht dat de webstie toegankelijk zou zijn en dat was het eigenlijk helemaal niet. Je kan niet inzoomen, er worden geen alt-teksten gebruikt, er is geen button om meteen naar de content toe te gaan en de screenreader slaat sommige elementen over en spreekt het niet correct uit. Terwijl er wel lang="en-US" staat, maar sommige woorden worden als nog half nederlands gesproken in een engels accent.
+  Verder wordt er op de home pagina een video gebruikt met flitsende beelden. Je kan het ook totaal niet uitzetten.
+
+  Visueel ziet de website er mooi uit, maar als je een beperking hebt, ga je veel moeite hebben met het begrijpen van deze website. Zoals dat er geen focus staat op de knoppen, dus dan weet de screenreader ook niet waar je heen gaat of waar je op staat.
+  Of het lezen van tekst op een afbeelding of video. Het contrast ervan is erg slecht en het leid ook nog eens af. Als je slecht zient bent, kun je dat niet goed lezen en inzoomen kan niet.
+
+  Zoals hier:
+   <img src="readme-images/Slechte-tekst.jpg" width="375px" alt="slechte tekst op de home pagina">
+
 </details>
 
 
@@ -72,7 +81,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/Breakdown-schets-Home_Tekengebied 1-01" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdown-schets-Home.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
