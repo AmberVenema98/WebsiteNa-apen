@@ -46,9 +46,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/home.jpg" width="375px" alt="homepagina world of warcraft">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Classes
+  Dragonflight expansion
   https://worldofwarcraft.blizzard.com/en-us/game/classes
-  <img src="readme-images/classes.jpg" width="375px" alt="classes pagina world of warcraft">
+  <img src="readme-images/tweede-pagina.jpg" width="375px" alt="classes pagina world of warcraft">
  
 </details>
 
