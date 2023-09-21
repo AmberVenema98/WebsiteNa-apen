@@ -165,8 +165,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De eerste website heb ik nu bijna helemaal klaar. Ik was nog even bezig met het hamburger menu en nog niet heel veel aan de tweede website gewerkt. Wel heb ik daarvan de html schrijven, maar ik wilde nog even zeker weten of ik section en article goed heb gebruikt.
 
    <img src="readme-images/website1.png" width="375px" alt="Home pagina website"> 
+   <img src="readme-images/website2.png" width="375px" alt="Home pagina website"> 
+
 
   Verder lukt het mij niet om de knoppen gecentreerd te krijgen en goed in het vlak te positioneren. Ze zitten nu steeds tussen twee sections in.
+
 
   <img src="readme-images/Knoppen.jpg" width="375px" alt="Knoppen niet gecentreerd in de website. Ze zitten aan de linkerkant van de website en zitten te dicht op de andere sections.">
 
