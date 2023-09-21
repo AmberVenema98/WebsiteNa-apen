@@ -195,7 +195,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Het gaat al best goed met mijn website en er werd gezegd dat ik wat meer gebruik mocht maken van div's. Voor de styling dan vooral, waardoor het er netter uitziet. Ook de knoppen kon ik het beste in div's doen en dan flexwrap gebruiken. De knoppen moeten namelijk op mobiel onderelkaar en op tablet en computer naast elkaar.
 
-  Ik had wat notitiets gemaakt in mijn code van wat ik ga veranderen en waar.
+  Ik had wat notities gemaakt in mijn code van wat ik ga veranderen en waar:
 
   <img src="readme-images/feedback-w2.jpg" width="100%" alt="Html code met uitleg wat er veranderd moet worden">
 
