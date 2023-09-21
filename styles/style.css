@@ -27,24 +27,183 @@
 /*    Header    */
 /****************/
 
-.home header nav ul{
+header{
 	display: flex;
 	justify-content: space-between;
 
 	background-color: #342211;
 
-	height: 70px;
-
-	padding: 10px;
-	margin: 0;
-
-	list-style-type: none;
+	min-height:4em;
+  	padding:0 1em;
+  	line-height:1;
 }
 
-.home header nav ul li button{
+header button{
+	/* icon en tekst met gap-je naast elkaar */
+	display:flex;
+	align-items:center;
+	gap:.25em;
+	
+	/* standaard styling aanpassen */
+	font-family: Arial, Helvetica, sans-serif;
+	appearance:none;
+	border:none;
+	border-radius:.25em; 
+	font:inherit;
+	text-align:center;
+	color: white;
+
+	height: 50px;
+	width: 50px;
+
+	cursor: pointer;
+}
+
+header > button:nth-of-type(1){
+	color: red;
+}
+
+header img{
 	height: 50px;
 	width: 50px;
 }
+
+.home header a {
+	padding:.5em 0;
+	color: white;
+	text-decoration:none;
+	border: none;
+  }
+
+
+
+
+
+
+/****************/
+/*      Nav     */
+/****************/
+nav button{
+	justify-self:start;
+}
+
+nav{
+	padding:1em;
+  
+  	display:grid;
+  	align-content:start;
+  	gap:1em;
+
+	background-color: #342211;
+
+	position: fixed;
+  
+	/* zo rek je hem uit */
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+
+	translate: -100% 0%;/* eerst x dan y */
+	
+	transition: 0.3s;
+}
+
+nav.toonMenu {
+	translate: 0% 0%;
+  }
+
+nav ul { 
+	margin:0; 
+	padding:0em;
+	list-style:none;
+}
+
+nav a {
+	/* icon en tekst met gap-je naast elkaar */
+	display:flex;
+	align-items:center;
+	column-gap:.25em;
+	
+	border-bottom:solid 1px var(--menu-border);
+  }
+  
+  nav a img {
+	width:auto;
+	height:2em;
+  }
+  
+  nav a.active {
+	font-weight:bold;
+  }
+
+
+
+
+
+
+
+
+/***********************/
+/*      Responsive     */
+/***********************/
+/* Middel scherm */
+  @media (min-width:38em) {
+	header > button:nth-of-type(1) { 
+	display: none;    
+	}
+
+	header > button:nth-of-type(2) { 
+	order: 3;   
+	}
+	
+	nav {
+	  position: sticky;
+	  translate: unset;
+	  padding: 0;
+	  background: none;   
+	}
+	
+	nav button {
+	  display: none;  
+	}
+	
+	nav ul {
+	  display: flex;
+	  gap: 1em;
+	  
+	  
+	}
+	
+	nav a {
+	  display: flex;
+	  flex-direction: column; 
+	  
+	  border: none;
+	}
+	
+	header > a:last-of-type {
+	  display: flex;
+	  flex-direction: column; 
+	  
+	  
+	}
+  }
+
+/* Groot scherm */
+  @media (min-width:57em) {
+	header > a:last-of-type,
+	nav a {
+	  display: flex;
+	  flex-direction: row; 
+	}
+  }
+
+
+
+
+
+
 
 
 
@@ -62,10 +221,16 @@ body{
 
 
 
+
+
 /****************/
 /*   Main Home  */
 /****************/
-.home p, h1, h2, h3, a{
+.home p, 
+h1, 
+h2, 
+h3, 
+a{
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;
 	text-align: center;
@@ -84,24 +249,48 @@ body{
 	margin-top: 0;
 }
 
-.home h2, .home h3{
+.home h2, 
+.home h3{
 	margin: 0;
+	margin-bottom: 7px;
 }
 
+.home h2{
+	color: orange;
+}
 
-.home main > article > p{
+.home p{
+	font-size: 1em;
+
+	padding: 20px;
+}
+
+.home main > article > p,
+.home main > section:nth-of-type(4) > article > p,
+.home main > section:nth-of-type(5) > article > p,
+.home main > section:nth-of-type(6) > article > p,
+.home main > section:nth-of-type(8) > article > p{
 	line-height: 25px;
 	margin-bottom: 30px;
 }
 
-.home a{
-	color: orange;
+.home main > section:nth-of-type(3) > article > p{
+	line-height: 25px;
 }
 
-.home main section, .home main article, .home footer{
+.home a{
+	color: orange;
+	border: 2px solid orange;
+	
+	padding: 20px;
+
+	cursor: pointer;
+}
+
+.home main > section:nth-of-type(2),
+.home main > article{
 	margin-right: 20px;
 	margin-left: 20px;
-	background-color: aqua;
 }
 
 .home main > section:nth-of-type(1){
@@ -115,65 +304,220 @@ body{
 
 .home main > article{
 	background-color: black;
-	height: 400px;
+	height: 550px;
 	
 	text-align: center;
+}
+
+.home main > section > article > img,
+.home main > section:nth-of-type(2) section > article > img{
+	width: 100%;
+  	height: auto;
+
+	margin-bottom: 15px;	
 }
 
 
 
 /*******Latest update Section*********/
-.home main > section > section > section{
-	height: 230px;
-
-	margin: 0;
-
-	border: 2px solid orange;
-
-	background-size: cover;
-	background-repeat: no-repeat;
+.home main > article > section{
+	margin-top: 70px;
 }
 
-.home main > section > section > section:nth-of-type(1){
-	background-image: url(../images/Homepagina/News2.jpg);
+.home main > section:nth-of-type(2){
+	height: 650px;
 }
 
-.home main > section > section > section:nth-of-type(2){
-	background-image: url(../images/Homepagina/Home-background.jpg);
-}
-
-.home main > section > section > article{
-	background-color: pink;
-
-	margin-bottom: 20px;
-	margin-left: 0;
-	margin-right: 0;
-	padding: 20px;
-}
-
-.home main > section > section > article > p, h3{
-	font-size: 1em;
-
-	text-align: left;
-}
-/*******Einde Latest update Section*********/
-
-
-
-
-/*******Footer*********/
-.home footer{
-	background-color: crimson;
-}
-
-.home footer > section{
+.home main > section:nth-of-type(2) section{
 	display: flex;
 }
 
-.home footer > section > p, .home footer > section > a{
+.home main > section:nth-of-type(2) section > article{
+	border: 2px solid orange;
+
+	height: auto;
+
+	margin-bottom: 20px;
+}
+
+.home main > article > a,
+.home main > section:nth-of-type(2) section > a{
+	border: none;
+}
+
+.home main > article > a{
+	text-decoration: underline;
+}
+
+.home main > section:nth-of-type(2) section > article > p, 
+.home main > section:nth-of-type(2) section > article > h3{
+	font-size: 1em;
+
+	margin-left: 15px;
+	padding: 0;
+
+	text-align: left;
+}
+
+.home main > section:nth-of-type(2) section > article > h3{
+	color: orange;
+
+	margin-bottom: 15px;
+}
+/*******Einde Latest update Section*********/
+
+.home main > section:nth-of-type(3), 
+.home main > section:nth-of-type(4), 
+.home main > section:nth-of-type(5),
+.home main > section:nth-of-type(6),
+.home main > section:nth-of-type(7),
+.home main > section:nth-of-type(8)
+{
+	background-color: #342211;
+	margin-bottom: 5px;
+}
+/**********************/
+/*   Einde Main Home  */
+/**********************/
+
+
+
+
+
+
+
+/************************/
+/*   Main Dragonflight  */
+/************************/
+.dragonflight p, 
+h1, 
+h2, 
+h3, 
+a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+
+	padding: 0;
+	margin: 0;
+
+	flex-wrap: wrap;
+}
+
+.dragonflight h1{
+	font-size: 2.5em;
+	text-transform: uppercase;
+
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+.dragonflight h2, 
+.dragonflight h3{
+	margin: 0;
+	margin-bottom: 7px;
+}
+
+.dragonflight h2{
+	color: orange;
+}
+
+.dragonflight p{
+	font-size: 1em;
+
+	padding: 20px;
+}
+
+.dragonflight main > article:nth-of-type(1) section > img{
+	width: 5%;
+	height: 5%;
+}
+
+/******************************/
+/*   Einde Main Dragonflight  */
+/******************************/
+
+
+/********************/
+/*    Einde Body    */
+/********************/
+
+
+
+
+/*****************/
+/*     Footer    */
+/*****************/
+footer{
+	background-color: black;
+}
+
+.home footer > section > p > a, 
+.home footer > section > a, 
+.home footer > section > section > a,
+.dragonflight footer > section > p > a, 
+.dragonflight footer > section > a, 
+.dragonflight footer > section > section > a{
+	border: none;
+
+	color: white;
+
+	padding: 10px;
+}
+
+footer > section:nth-of-type(1) section,
+footer > section:nth-of-type(2),
+footer > section:nth-of-type(3),
+footer > section:nth-of-type(5),
+footer > section:nth-of-type(6) section,
+footer > section:nth-of-type(7){
+	display: flex;
+	justify-content: center;
+
+	text-align: center;
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer > section > p,
+footer > section:nth-of-type(7){
+	padding: 0;
+	margin: 0;
+}
+
+footer > section:nth-of-type(6) section{
+	margin-top: 0;
+}
+
+footer > section:nth-of-type(1){
+	background-color: #342211;
+
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer > section:nth-of-type(2) > a > img,
+footer > section > img{
+	width: 10%;
+
+	margin: 0;
+}
+
+footer > section:nth-of-type(3) > a > img{
+	width: 50%;
+}
+
+footer > section:nth-of-type(4){
 	text-align: center;
 }
-/*******Eind Footer*********/
+
+footer > section:nth-of-type(4) a{
+	text-transform: uppercase;
+}
+/*********************/
+/*    Einde Footer   */
+/*********************/
 
 
 
