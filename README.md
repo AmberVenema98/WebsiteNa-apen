@@ -197,7 +197,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Ik had wat notitiets gemaakt in mijn code van wat ik ga veranderen en waar.
 
-  <img src="readme-images/feedback-w2.jpg" width="375px" alt="Html code met uitleg wat er veranderd moet worden">
+  <img src="readme-images/feedback-w2.jpg" width="100%" alt="Html code met uitleg wat er veranderd moet worden">
 
 </details>
 
