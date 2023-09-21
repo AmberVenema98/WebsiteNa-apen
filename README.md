@@ -189,10 +189,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Voor styling div's gebruiken
+  - Nog aantal sections weghalen
+  - Even wachten tot Github is geupdate (duurt eventjes)
+
+  Het gaat al best goed met mijn website en er werd gezegd dat ik wat meer gebruik mocht maken van div's. Voor de styling dan vooral, waardoor het er netter uitziet. Ook de knoppen kon ik het beste in div's doen en dan flexwrap gebruiken. De knoppen moeten namelijk op mobiel onderelkaar en op tablet en computer naast elkaar.
+
+  Ik had wat notitiets gemaakt in mijn code van wat ik ga veranderen en waar.
+
+  <img src="readme-images/feedback-w2.jpg" width="375px" alt="Html code met uitleg wat er veranderd moet worden">
 
 </details>
 
