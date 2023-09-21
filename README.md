@@ -137,10 +137,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Sommige sections weghalen en/of veranderen in articles
+  - Alt-teksten nog veranderen
+  - CSS Selectors nu duidelijk en had het al bijna goed
+
+  Het was een niet heel erg lang gesprek over deze feedback. Ik kreeg hulp bij de CSS Selectors, want ik had moeite met een bepaald element in een section pakken. Nou bleek het dat ik nadat ik :nth-of-type() gebruikte, de elementen erachter moest zetten. Dat werkte en ik begreep ook waarom, want computer denken van achter naar voor. Dus aan het einde begin je met het begin. 
+
+  Daarna werd mij verteld dat ik wat sections weg kan halen, omdat ik er teveel had en het wat kon versimpelen. Verder was er een beetje een discussie over of ik ergens beter een article of section kon gebruiken. Dit is omdat daarin veel tekst stond en een plaatje, maar dan geen header had. Dus het was een beetje van beide wat wel lastig was.
+  Ik weet dus niet zeker of wat ik nu heb eigenlijk goed is.
+
+  Als laatste moest ik de alt-teksten nog even veranderen in iets wat de afbeelding goed beschrijft. 
 
 </details>
 
@@ -156,16 +162,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  De eerste website heb ik nu bijna helemaal klaar. Ik was nog even bezig met het hamburger menu en nog niet heel veel aan de tweede website gewerkt. Wel heb ik daarvan de html schrijven, maar ik wilde nog even zeker weten of ik section en article goed heb gebruikt. 
+
+  Verder lukt het mij niet om de knoppen gecentreerd te krijgen en goed in het vlak te positioneren. Ze zitten nu steeds tussen twee sections in.
+
+  <img src="readme-images/Knoppen.jpg" width="100%" alt="Knoppen niet gecentreerd in de website. Ze zitten aan de linkerkant van de website en zitten te dicht op de andere sections.">
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Amber                     | Elles                 | Rhania            | Sophie                              |
+  | ---                       | ---                   | ---               | ---                                 |
+  | Knoppen centreren         | Grid                  |                   | Uitklapbaar menu over de pagina     |
+  | Sections goed gebruiken   | A href=""             |                   | dit wil ik zeker                    |
+  |                           | Github link           |                   |                                     |
+  |                           | Section uitlijnen     |                   |                                     |
+  |                           | CSS pagina 2          |                   |                                     |
+  |                           | 1 Kolom met schalen   |                   |                                     |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
