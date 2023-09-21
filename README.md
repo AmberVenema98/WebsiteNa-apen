@@ -162,24 +162,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  De eerste website heb ik nu bijna helemaal klaar. Ik was nog even bezig met het hamburger menu en nog niet heel veel aan de tweede website gewerkt. Wel heb ik daarvan de html schrijven, maar ik wilde nog even zeker weten of ik section en article goed heb gebruikt. 
+  De eerste website heb ik nu bijna helemaal klaar. Ik was nog even bezig met het hamburger menu en nog niet heel veel aan de tweede website gewerkt. Wel heb ik daarvan de html schrijven, maar ik wilde nog even zeker weten of ik section en article goed heb gebruikt.
+
+   <img src="readme-images/website1.png" width="375px" alt="Home pagina website"> 
 
   Verder lukt het mij niet om de knoppen gecentreerd te krijgen en goed in het vlak te positioneren. Ze zitten nu steeds tussen twee sections in.
 
-  <img src="readme-images/Knoppen.jpg" width="100%" alt="Knoppen niet gecentreerd in de website. Ze zitten aan de linkerkant van de website en zitten te dicht op de andere sections.">
+  <img src="readme-images/Knoppen.jpg" width="375px" alt="Knoppen niet gecentreerd in de website. Ze zitten aan de linkerkant van de website en zitten te dicht op de andere sections.">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Amber                     | Elles                 | Rhania            | Sophie                              |
-  | ---                       | ---                   | ---               | ---                                 |
-  | Knoppen centreren         | Grid                  |                   | Uitklapbaar menu over de pagina     |
-  | Sections goed gebruiken   | A href=""             |                   | dit wil ik zeker                    |
-  |                           | Github link           |                   |                                     |
-  |                           | Section uitlijnen     |                   |                                     |
-  |                           | CSS pagina 2          |                   |                                     |
-  |                           | 1 Kolom met schalen   |                   |                                     |
+  | Amber                     | Elles                 | Rhania                              | Sophie                              |
+  | ---                       | ---                   | ---                                 | ---                                 |
+  | Knoppen centreren         | Grid                  | Uitklapbaar menu over de pagina     | Uitklapbaar menu over de pagina     |
+  | Sections goed gebruiken   | A href=""             | Responsive                          |                                     |
+  |                           | Github link           |                                     |                                     |
+  |                           | Section uitlijnen     |                                     |                                     |
+  |                           | CSS pagina 2          |                                     |                                     |
+  |                           | 1 Kolom met schalen   |                                     |                                     |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
