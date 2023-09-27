@@ -30,12 +30,16 @@
 header{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 
 	background-color: #342211;
 
 	min-height:4em;
-  	padding:0 1em;
+  	padding:10px;
   	line-height:1;
+
+	position: sticky;
+	top: 0;
 }
 
 header button{
@@ -68,11 +72,10 @@ header img{
 	width: 50px;
 }
 
-.home header a {
+header a {
 	padding:.5em 0;
 	color: white;
 	text-decoration:none;
-	border: none;
   }
 
 
@@ -130,77 +133,19 @@ nav a {
   
   nav a img {
 	width:auto;
-	height:2em;
+	height:150px;
   }
   
   nav a.active {
 	font-weight:bold;
   }
 
-
-
-
-
-
-
-
-/***********************/
-/*      Responsive     */
-/***********************/
-/* Middel scherm */
-  @media (min-width:38em) {
-	header > button:nth-of-type(1) { 
-	display: none;    
-	}
-
-	header > button:nth-of-type(2) { 
-	order: 3;   
-	}
-	
-	nav {
-	  position: sticky;
-	  translate: unset;
-	  padding: 0;
-	  background: none;   
-	}
-	
-	nav button {
-	  display: none;  
-	}
-	
-	nav ul {
-	  display: flex;
-	  gap: 1em;
-	  
-	  
-	}
-	
-	nav a {
-	  display: flex;
-	  flex-direction: column; 
-	  
-	  border: none;
-	}
-	
-	header > a:last-of-type {
-	  display: flex;
-	  flex-direction: column; 
-	  
-	  
-	}
+  .home header a,
+  .home header > nav > ul > li > a,
+  .dragonflight header a,
+  .dragonflight header > nav > ul > li > a{
+	border: none;
   }
-
-/* Groot scherm */
-  @media (min-width:57em) {
-	header > a:last-of-type,
-	nav a {
-	  display: flex;
-	  flex-direction: row; 
-	}
-  }
-
-
-
 
 
 
@@ -255,6 +200,11 @@ a{
 	margin-bottom: 7px;
 }
 
+.home main > section:nth-of-type(2) > article:nth-of-type(6) h3,
+.home main > section:nth-of-type(2) > article:nth-of-type(7) h3{
+	margin-bottom: 25px;
+}
+
 .home h2{
 	color: orange;
 }
@@ -266,40 +216,60 @@ a{
 }
 
 .home main > article > p,
-.home main > section:nth-of-type(4) > article > p,
-.home main > section:nth-of-type(5) > article > p,
-.home main > section:nth-of-type(6) > article > p,
-.home main > section:nth-of-type(8) > article > p{
+.home main > section > article > p{
 	line-height: 25px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 .home main > section:nth-of-type(3) > article > p{
 	line-height: 25px;
 }
 
-.home a{
+.home a,
+.dragonflight a{
 	color: orange;
 	border: 2px solid orange;
 	
+	width: 220px;
+
 	padding: 20px;
 
 	cursor: pointer;
 }
 
-.home main > section:nth-of-type(2),
+.home main > article > a,
+.home main > section:nth-of-type(1) div > a{
+	border: none;
+}
+
+.home main > article > a{
+	text-decoration: underline;
+}
+
+.home main > article > div{
+	display: flex;
+	gap: 20px;
+
+	margin-top: 40px;
+}
+
+.home main > article > div > a:nth-of-type(1){
+	background-color: #9f1600;
+}
+
+.home main > section > article > div{
+	display: flex;
+ 	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+
+	margin-bottom: 20px;
+}
+
+.home main > section:nth-of-type(1),
 .home main > article{
 	margin-right: 20px;
 	margin-left: 20px;
-}
-
-.home main > section:nth-of-type(1){
-	display: flex;
-	height: 150px;
-
-	background-repeat: no-repeat;
-	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/kj/KJS7Z9VJW5MD1693941531106.png);
-	background-size: cover;
 }
 
 .home main > article{
@@ -309,30 +279,36 @@ a{
 	text-align: center;
 }
 
+.home main > div{
+	height: 150px;
+
+	background-repeat: no-repeat;
+	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/kj/KJS7Z9VJW5MD1693941531106.png);
+	background-size: cover;
+}
+
+.home main > section > div{
+	display: flex;
+	justify-content: space-between;
+}
+
 .home main > section > article > img,
-.home main > section:nth-of-type(2) section > article > img{
+.home main > section:nth-of-type(1) section > article > img{
 	width: 100%;
   	height: auto;
 
 	margin-bottom: 15px;	
 }
 
-
-
-/*******Latest update Section*********/
 .home main > article > section{
 	margin-top: 70px;
 }
 
-.home main > section:nth-of-type(2){
+.home main > section:nth-of-type(1){
 	height: 650px;
 }
 
-.home main > section:nth-of-type(2) section{
-	display: flex;
-}
-
-.home main > section:nth-of-type(2) section > article{
+.home main > section:nth-of-type(1) article{
 	border: 2px solid orange;
 
 	height: auto;
@@ -340,17 +316,8 @@ a{
 	margin-bottom: 20px;
 }
 
-.home main > article > a,
-.home main > section:nth-of-type(2) section > a{
-	border: none;
-}
-
-.home main > article > a{
-	text-decoration: underline;
-}
-
-.home main > section:nth-of-type(2) section > article > p, 
-.home main > section:nth-of-type(2) section > article > h3{
+.home main > section:nth-of-type(1) article > p, 
+.home main > section:nth-of-type(1) article > h3{
 	font-size: 1em;
 
 	margin-left: 15px;
@@ -359,19 +326,13 @@ a{
 	text-align: left;
 }
 
-.home main > section:nth-of-type(2) section > article > h3{
+.home main > section:nth-of-type(1) article > h3{
 	color: orange;
 
 	margin-bottom: 15px;
 }
-/*******Einde Latest update Section*********/
 
-.home main > section:nth-of-type(3), 
-.home main > section:nth-of-type(4), 
-.home main > section:nth-of-type(5),
-.home main > section:nth-of-type(6),
-.home main > section:nth-of-type(7),
-.home main > section:nth-of-type(8)
+.home main > section:nth-of-type(2) 
 {
 	background-color: #342211;
 	margin-bottom: 5px;
@@ -390,13 +351,17 @@ a{
 /*   Main Dragonflight  */
 /************************/
 .dragonflight p, 
-h1, 
-h2, 
-h3, 
-a{
+.dragonflight h1, 
+.dragonflight h2, 
+.dragonflight h3,
+.dragonflight h4,
+.dragonflight h5, 
+.dragonflight label{
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;
 	text-align: center;
+
+    text-shadow: 0px 1px 35px rgba(0, 43, 82, 0.4);
 
 	padding: 0;
 	margin: 0;
@@ -408,29 +373,245 @@ a{
 	font-size: 2.5em;
 	text-transform: uppercase;
 
-	margin-bottom: 30px;
 	margin-top: 0;
+
+	
 }
 
 .dragonflight h2, 
 .dragonflight h3{
 	margin: 0;
 	margin-bottom: 7px;
-}
 
-.dragonflight h2{
-	color: orange;
+	text-transform: uppercase;
 }
 
 .dragonflight p{
 	font-size: 1em;
+	line-height: 25px;
 
 	padding: 20px;
 }
 
-.dragonflight main > article:nth-of-type(1) section > img{
-	width: 5%;
-	height: 5%;
+.dragonflight main > div{
+	background-image: url(../images/Dragonflight/divider.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	height: 50px;
+}
+
+.dragonflight main > section:nth-of-type(1){
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../images/Dragonflight/Banner.jpg);
+	background-position: right;
+}
+
+.dragonflight main > section:nth-of-type(1) article:nth-of-type(1){
+	padding-top: 130px;
+	margin-bottom: 400px;
+}
+
+.dragonflight main > section:nth-of-type(1) > article:nth-of-type(1) section > img{
+	width: 100%;
+}
+
+.dragonflight main > section:nth-of-type(1) > article:nth-of-type(1) section > div > img{
+	width: 10%;
+	height: 10%;
+}
+
+.dragonflight main > section:nth-of-type(1) > article:nth-of-type(1) > section > div:nth-of-type(1),
+.dragonflight main > section:nth-of-type(1) > article:nth-of-type(1) > section > div:nth-of-type(2),
+.dragonflight main > section:nth-of-type(1) > article:nth-of-type(2) > section > div{
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+
+	padding-bottom: 50px;
+}
+
+.dragonflight main > section:nth-of-type(1) > article:nth-of-type(1) > section > div > a{	
+	font-weight: bold;
+
+	border: 7px solid gray;
+	background-color: #132539;
+	
+	width: 220px;
+
+	padding: 20px;
+
+	cursor: pointer;	
+}
+
+.dragonflight main > section:nth-of-type(1) > article:nth-of-type(2) > section > div > video{
+	border: 7px solid gray;
+
+	height: 220px;
+}
+
+.dragonflight main > article:nth-of-type(1) section > h2,
+.dragonflight main > article:nth-of-type(2) section > h2,
+.dragonflight main > article:nth-of-type(3) section > h2,
+.dragonflight main > article:nth-of-type(4) section > h2,
+.dragonflight main > article:nth-of-type(5) section > h2,
+.dragonflight main > article:nth-of-type(6) section > h2,
+.dragonflight main > section:nth-of-type(2) h2{
+	padding-top: 40px;
+}
+
+.dragonflight main > article:nth-of-type(2){
+	background-image: url(../images/Dragonflight/sky-clouds-blue-skies.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.dragonflight main > article:nth-of-type(2) > section > div{
+	display: flex;
+	justify-content: center;
+	gap: 1em;
+}
+
+.dragonflight main > article:nth-of-type(2) > section > div > img{
+	width: 13%;
+	height: auto;
+
+	border: 7px solid gray;
+	border-radius: 50%;
+}
+
+.dragonflight main > article:nth-of-type(2) > section > div > img:nth-of-type(4){
+	border: 7px solid orange;
+}
+
+.dragonflight main > article:nth-of-type(2) > section > video,
+.dragonflight main > article:nth-of-type(2) > section > section:nth-of-type(6) > video,
+.dragonflight main > article:nth-of-type(3) > section > div > img,
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(1) img,
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(2) img{
+	max-width: 100%;
+}
+
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(1) img,
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(2) img{
+	margin-top: 20px;
+}
+
+.dragonflight main > article:nth-of-type(2) > section > p,
+.dragonflight main > article:nth-of-type(3) > section > div > img{
+	margin-bottom: 20px;
+}
+
+.dragonflight main > article:nth-of-type(1),
+.dragonflight main > article:nth-of-type(2) > section > section:nth-of-type(1),
+.dragonflight main > article:nth-of-type(2) > section > section:nth-of-type(2),
+.dragonflight main > article:nth-of-type(2) > section > section:nth-of-type(3),
+.dragonflight main > article:nth-of-type(2) > section > section:nth-of-type(4),
+.dragonflight main > article:nth-of-type(2) > section > section:nth-of-type(5),
+.dragonflight main > article:nth-of-type(3) > section{
+	padding-bottom: 40px;
+}
+
+.dragonflight main > article:nth-of-type(1),
+.dragonflight main > article:nth-of-type(3),
+.dragonflight main > article:nth-of-type(4),
+.dragonflight main > article:nth-of-type(5),
+.dragonflight footer{
+	background-image: url(https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blte5376a44ac1bf501/61b7b389e2089134dcfbdf10/bg_stone_texture_mobile.jpg?format=webply&quality=70);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dragonflight main > article:nth-of-type(3) > section > div{
+	margin: 20px;
+
+	background-color: #181818;
+	border: 7px solid gray;
+}
+
+.dragonflight main > article:nth-of-type(4) > section > h2{
+	margin-bottom: 40px;
+}
+
+.dragonflight main > article:nth-of-type(3) > section > div > section > p > a{
+	border: none;
+	text-decoration: underline;
+
+	padding: 0;
+}
+
+.dragonflight main > article:nth-of-type(4) > section > ul > li::marker{
+	content: '💠';
+	transition: 1s;
+}
+
+.dragonflight main > article:nth-of-type(4) > section:hover ul li::marker,
+.dragonflight main > article:nth-of-type(4) > section:hover ul li > h3{
+	font-size: 3em;
+	color:#342211;
+
+	transform: rotate(1turn);
+
+	content: '💩';
+}
+
+.dragonflight main > article:nth-of-type(4) > section > ul > li > h3,
+.dragonflight main > article:nth-of-type(4) > section > ul > li > p,
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(1) > ul > li > p,
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(2) > ul > li > p{
+	text-align: left;
+
+	transition: 1s;
+}
+
+.dragonflight main > section:nth-of-type(2){
+	background-image: url(https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt6637d3cb5fff6115/6238c0bf88d84e24b5018908/bg_media-v2-sm.jpg?format=webply&quality=70);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dragonflight main > section:nth-of-type(2) div{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 2em;
+
+	margin: 20px;
+}
+
+.dragonflight main > section:nth-of-type(2) > div > img{
+	object-fit: cover;
+	width: 100%;
+	max-height: 100%;
+
+	border: 7px solid gray;
+}
+
+.dragonflight main > section:nth-of-type(2) > div:nth-of-type(2),
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(1) > div,
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(2) > div{
+	display: flex;
+	justify-content: center;
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(1),
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(2){
+	border: 7px solid gray;
+	background-color: #132539;
+
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(1) ul li,
+.dragonflight main > article:nth-of-type(5) > div > section:nth-of-type(2) ul li{
+	color: white;
 }
 
 /******************************/
@@ -451,13 +632,14 @@ a{
 footer{
 	background-color: black;
 }
-
-.home footer > section > p > a, 
-.home footer > section > a, 
-.home footer > section > section > a,
-.dragonflight footer > section > p > a, 
-.dragonflight footer > section > a, 
-.dragonflight footer > section > section > a{
+ 
+.home footer > section > div > a, 
+.home footer > div > a,
+.home footer > div > section > a,
+.dragonflight footer > section > div > a, 
+.dragonflight footer > div > a,
+.dragonflight footer > div > section > a
+{
 	border: none;
 
 	color: white;
@@ -465,12 +647,12 @@ footer{
 	padding: 10px;
 }
 
-footer > section:nth-of-type(1) section,
-footer > section:nth-of-type(2),
-footer > section:nth-of-type(3),
-footer > section:nth-of-type(5),
-footer > section:nth-of-type(6) section,
-footer > section:nth-of-type(7){
+footer > section > div,
+footer > div:nth-of-type(1),
+footer > div:nth-of-type(2),
+footer > div:nth-of-type(4),
+footer > div:nth-of-type(5) section,
+footer > div:nth-of-type(6){
 	display: flex;
 	justify-content: center;
 
@@ -480,39 +662,49 @@ footer > section:nth-of-type(7){
 	margin-bottom: 30px;
 }
 
-footer > section > p,
-footer > section:nth-of-type(7){
+footer > p,
+footer > div:nth-of-type(6){
 	padding: 0;
 	margin: 0;
 }
 
-footer > section:nth-of-type(6) section{
+footer > section > div:nth-of-type(5) section{
 	margin-top: 0;
 }
 
-footer > section:nth-of-type(1){
+.home footer > section{
 	background-color: #342211;
 
 	padding-top: 30px;
 	margin-bottom: 30px;
 }
 
-footer > section:nth-of-type(2) > a > img,
-footer > section > img{
-	width: 10%;
+.dragonflight footer > section{
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer > div:nth-of-type(1) > a > img,
+footer > img{
+	width: 5%;
 
 	margin: 0;
 }
 
-footer > section:nth-of-type(3) > a > img{
-	width: 50%;
+footer > div:nth-of-type(2) > a > img{
+	width: 40%;
 }
 
-footer > section:nth-of-type(4){
+footer > div:nth-of-type(4) > img{
+	width: 8%;
+	height: 8%;
+}
+
+footer > div:nth-of-type(3){
 	text-align: center;
 }
 
-footer > section:nth-of-type(4) a{
+footer > div:nth-of-type(3) a{
 	text-transform: uppercase;
 }
 /*********************/
@@ -522,6 +714,64 @@ footer > section:nth-of-type(4) a{
 
 
 
+
+
+
+
+/***********************/
+/*      Responsive     */
+/***********************/
+/* Middel scherm */
+@media (min-width:38em) {
+	header > button:nth-of-type(1) { 
+	display: none;    
+	}
+
+	header > button:nth-of-type(2) { 
+	order: 3;   
+	}
+	
+	nav {
+	  position: sticky;
+	  translate: unset;
+	  padding: 0;
+	  background: none;   
+	}
+	
+	nav button {
+	  display: none;  
+	}
+	
+	nav ul {
+	  display: flex;
+	  gap: 1em;
+	  
+	  
+	}
+	
+	nav a {
+	  display: flex;
+	  flex-direction: column; 
+	  
+	  border: none;
+	}
+	
+	header > a:last-of-type {
+	  display: flex;
+	  flex-direction: column; 
+	  
+	  
+	}
+  }
+
+/* Groot scherm */
+  @media (min-width:57em) {
+	header > a:last-of-type,
+	nav a {
+	  display: flex;
+	  flex-direction: row; 
+	}
+  }
 
 
 
