@@ -165,7 +165,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De eerste website heb ik nu bijna helemaal klaar. Ik was nog even bezig met het hamburger menu en nog niet heel veel aan de tweede website gewerkt. Wel heb ik daarvan de html schrijven, maar ik wilde nog even zeker weten of ik section en article goed heb gebruikt.
 
    <img src="readme-images/website1.png" width="375px" alt="Home pagina website"> 
-   <img src="readme-images/website2.png" width="375px" alt="Home pagina website"> 
+   <img src="readme-images/website2.png" width="375px" alt="Dragonflight pagina website"> 
 
 
   Verder lukt het mij niet om de knoppen gecentreerd te krijgen en goed in het vlak te positioneren. Ze zitten nu steeds tussen twee sections in.
@@ -226,16 +226,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben nu al best ver met beide pagina's. Bijna klaar nu. Voor nu moet ik nog aan het menu werken, de carrousel van de dragonflight pagina en de website responsive maken.
 
+  <img src="readme-images/website1-2.png" width="375px" alt="Home pagina website"> 
+  <img src="readme-images/website2-2.png" width="375px" alt="Dragonflight pagina website"> 
+
+  Hier moet ik dus nog even aan werken, maar ik heb dit gister met de docent besproken. Dus ik weet hoe ik dit moet afmaken.
+
+  <img src="readme-images/carrousel.jpg" width="100%" alt="Carrousel in Dragonflight pagina website">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Amber                              | Elles                 | Rhania                              | Sophie                              |
+  | ---                                | ---                   | ---                                 | ---                                 |
+  | Wanneer px of em gebruiken         | Responsive, margins   | Uitklapbaar menu over de pagina     | Uitklapbaar menu over de pagina     |
+  | Captions en transcript toevoegen   | Media queries         | Responsive                          |                                     |
+  |                                    | Sections en div's     |                                     |                                     |
+  |                                    | Articles              |                                     |                                     |
 
 
   ### Verslag van meeting
