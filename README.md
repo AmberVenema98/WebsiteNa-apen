@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Rode piste
 
   #### Je focus:
-  Surface plane
+  Responsive
  
 </details>
 
@@ -242,17 +242,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---                                | ---                   | ---                                 | ---                                 |
   | Wanneer px of em gebruiken         | Responsive, margins   | Uitklapbaar menu over de pagina     | Uitklapbaar menu over de pagina     |
   | Captions en transcript toevoegen   | Media queries         | Responsive                          |                                     |
-  |                                    | Sections en div's     |                                     |                                     |
+  | Achtergrond en tekst er overheen   | Sections en div's     |                                     |                                     |
   |                                    | Articles              |                                     |                                     |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Pixels hoef ik eigenlijk niet echt te gebruiken. Voor hoogtes en breedtes kan ik het beste vw of vh gebruiken, want dit schaalt mee. En em voor tekst blijven gebruiken.
+  - Qua captions kan ik het beste een YouTube link gebruiken, want daar staat het dan al bij. Er is niet echt code voor om die captions te laten verschijnen, dus dit is de beste mogelijkheid.
+  - Voor de tekst op een afbeelding kan ik het beste een vlak achter de tekst maken om de tekst beter leesbaar te maken. Schaduw werkt niet genoeg en ik had ook al de achtergrond foto donkerder gemaakt, maar dat werkt dus niet genoeg. Nu ga ik dat proberen.
 
 </details>
 
@@ -294,8 +293,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Responsive 2-buttons burger
+  https://dlo.mijnhva.nl/content/enforced/536487-FDMCI-2000FED121-DMCI-CMD-2324/FED%2023-24%20-%20Blok%201%20-%20Oefening%20JS%203-stap.pdf
+  2. De carrousel die ik op de Dragonflight pagina heb gemaakt, komt van de docent vandaan. Hij heeft mij uitgelegd hoe ik dat makkelijk kan maken met CSS. We hebben gebruik gemaakt van overflox-x scroll en flex-direction column en dan flex om alles naast elkaar te krijgen.
+  3. Text-shadow
+  https://codepen.io/shooft/pen/XWoJbov?editors=1100 
 
 </details>
