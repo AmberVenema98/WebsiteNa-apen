@@ -112,7 +112,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Hier is een voorbeeld:
 
-  Twee section hebben dezelfde achtergrond foto, terwijl ik hier een pad heb gemaakt om ze uitelkaar te halen. Er moet iets zijn dat ik niet goed heb ingetikt, maar ik zie even niet wat.
+  Twee sections hebben dezelfde achtergrond foto, terwijl ik hier een pad heb gemaakt om ze uitelkaar te halen. Er moet iets zijn dat ik niet goed heb ingetikt, maar ik zie even niet wat.
 
   <img src="readme-images/Code-selectors.jpg" width="100%" alt="Afbeelding van Css code en het resultaat. Je ziet twee section met dezelfde achtergrond foto.">
 
@@ -213,6 +213,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  Wat meteen als probleem naar voren kwam toen ik door mijn website heen ging met de screenreader, was dat alle linkjes overgeslagen werden. Bleek dat ik in de 'a' een 'href' vergeten was, daarom werden ze overgeslagen. Dat was snel opgelost en daarna deed hij het wel.
+  Verder stond er in mijn code genoeg foutmeldingen met sections of articles die geen header hadden. Dit heb ik opgelost door bepaalde sections of articles weg te halen en in div's te veranderen. Als het geen heading nodig heeft en alleen wat styling, kan ik het daar gemakkelijk voor gebruiken.
+
+  Op dat moment had ik de website ook nog niet voor desktop gemaakt, dus toen ik probeerde om de website op de mobiele versie te bekijken terwijl hij horizontaal staat, werkte dat niet. Maar dat heb ik nu wel gedaan. Ook was een bepaald element groter, waardoor er een horizontale scroll was....................
+
+  De headings hadden goede namen, ik had list elements op de juiste manier gebruikt en alle afbeeldingen hadden een alt-tekst. Bij de video moest ik er alleen nog voor zorgen dat deze niet op autoplay staat en je hem uit kan zetten.
+
+  Als laatste had ik de root niet gebruikt om daar de kleuren vandaan te halen en nog geen :focus state toegevoegd. Dat moet ik nog doen.
+
 </details>
 
 
@@ -265,19 +274,41 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  Home
+
+  <img src="readme-images/Eindresultaat-Home-desk.png" width="375px" alt="uitomst home op desktop">
+  <img src="readme-images/Eindresultaat-Home-mob.png" width="375px" alt="uitomst home op mobiel">
+
+  Dragonflight
+
+  <img src="readme-images/Eindresultaat-Dragonflight-desk.png" width="375px" alt="uitomst dragonflight op desktop">
+  <img src="readme-images/Eindresultaat-Dragonflight-mob.png" width="375px" alt="uitomst dragonflight op mobiel">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+ Het leren goed positioneren van onderdelen. Of dat met flexbox of padding is. Het was best wel lastig in het begin.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Dragonflight-goed.jpg" width="375px" alt="Dragonflight tekst positioneren">
+  <img src="readme-images/Dragonflight-goed2.jpg" width="375px" alt="Dragonflight afbeeldingen positioneren">
+  <img src="readme-images/Home-goed.jpg" width="375px" alt="Home artikels positioneren">
+
+  Ook met de navigatie ging het goed. Eigenlijk gewoon de opdracht volgen en dan hem zelf nog veranderen voor jouw website. Hierin heb ik order, flexbox en translate gebruikt. Het was een heel gedoe in het begin, maar ik snap het nu wel beter.
+  <img src="readme-images/Nav-goed.jpg" width="375px" alt="Navigatie voor mobiel">
+  <img src="readme-images/Nav-goed2.jpg" width="375px" alt="Navigatie voor desktop">
+
+  En dan de carrousel, die ik samen met de docent heb gemaakt. Er is gebruik gemaakt van de x-scroll en dan ankerpunten op de buttons, die naar het stuk tekst gaan.
+  <img src="readme-images/Dragonflight-goed3.jpg" width="100%" alt="Carrousel">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Wat mij niet helemaal lukte was het leesbaar maken van de tekst.
+  <img src="readme-images/Dragonflight-niet-zo-goed.jpg" width="375px" alt="Tekst op plaatje niet te lezen">
+  <img src="readme-images/Dragonflight-niet-zo-goed2.jpg" width="375px" alt="Tekst op plaatje niet te lezen">
+
+  En het lukte helaas niet om deze twee articles even hoog te maken.
+  <img src="readme-images/Dragonflight-niet-zo-goed3.jpg" width="100%" alt="Articles niet dezelfde hoogte">
 </details>
 
 
@@ -298,5 +329,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. De carrousel die ik op de Dragonflight pagina heb gemaakt, komt van de docent vandaan. Hij heeft mij uitgelegd hoe ik dat makkelijk kan maken met CSS. We hebben gebruik gemaakt van overflox-x scroll en flex-direction column en dan flex om alles naast elkaar te krijgen.
   3. Text-shadow
   https://codepen.io/shooft/pen/XWoJbov?editors=1100 
+  4. Afbeelding mee laten schalen
+  https://www.w3schools.com/howto/howto_css_image_responsive.asp
 
 </details>
