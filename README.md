@@ -216,7 +216,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Wat meteen als probleem naar voren kwam toen ik door mijn website heen ging met de screenreader, was dat alle linkjes overgeslagen werden. Bleek dat ik in de 'a' een 'href' vergeten was, daarom werden ze overgeslagen. Dat was snel opgelost en daarna deed hij het wel.
   Verder stond er in mijn code genoeg foutmeldingen met sections of articles die geen header hadden. Dit heb ik opgelost door bepaalde sections of articles weg te halen en in div's te veranderen. Als het geen heading nodig heeft en alleen wat styling, kan ik het daar gemakkelijk voor gebruiken.
 
-  Op dat moment had ik de website ook nog niet voor desktop gemaakt, dus toen ik probeerde om de website op de mobiele versie te bekijken terwijl hij horizontaal staat, werkte dat niet. Maar dat heb ik nu wel gedaan. Ook was een bepaald element groter, waardoor er een horizontale scroll was....................
+  Op dat moment had ik de website ook nog niet voor desktop gemaakt, dus toen ik probeerde om de website op de mobiele versie te bekijken terwijl hij horizontaal staat, werkte dat niet. Maar dat heb ik nu wel gedaan. Ook was een bepaald element groter, waardoor er een horizontale scroll was.
 
   De headings hadden goede namen, ik had list elements op de juiste manier gebruikt en alle afbeeldingen hadden een alt-tekst. Bij de video moest ik er alleen nog voor zorgen dat deze niet op autoplay staat en je hem uit kan zetten.
 
